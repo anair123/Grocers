@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import openai
 from openai import OpenAI
 
-import config
+import grocers.Grocers.backend.config as config
 import os
 import pandas as pd
 
